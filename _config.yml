@@ -1,0 +1,27 @@
+title: Liam O'Hara
+email: liam@ohara.page
+description: >-
+  Hi and welcome to my website! Currently, this website is a working progress and is being created with Jekyll and Netlify CMS. Check out the Github repo for my page: https://github.com/Liamohara/my-website
+baseurl: ""
+url: "https://liam.ohara.page"
+twitter_username: therealliamohara
+github_username: liamohara
+default:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+include: [_redirects]

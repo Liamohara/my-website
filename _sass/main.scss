@@ -1,0 +1,17 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.current {
+  color: green;
+}
